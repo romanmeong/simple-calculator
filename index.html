@@ -19,68 +19,68 @@
 
                     <div class="row" id="calcbutton">
                         <div class="col s3">
-                            <a href="" class="btn light-blue">(</a>
+                            <a class="btn light-blue" onclick="AddText('(')">(</a>
                         </div>
                         <div class="col s3">
-                            <a href="" class="btn light-blue">)</a>
+                            <a class="btn light-blue" onclick="AddText(')')">)</a>
                         </div>
                         <div class="col s3">
-                            <a href="" class="btn light-blue">DEL</a>
+                            <a class="btn light-blue" onclick="DeleteText(0)">DEL</a>
                         </div>
                         <div class="col s3">
-                            <a href="" class="btn light-blue">AC</a>
-                        </div>
-
-                        <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">7</a>
-                        </div>
-                        <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">8</a>
-                        </div>
-                        <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">9</a>
-                        </div>
-                        <div class="col s3">
-                            <a href="" class="btn light-blue">÷</a>
+                            <a class="btn light-blue" onclick="DeleteText(1)">AC</a>
                         </div>
 
                         <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">4</a>
+                            <a class="btn light-blue lighten-2" onclick="AddText('7')">7</a>
                         </div>
                         <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">5</a>
+                            <a class="btn light-blue lighten-2" onclick="AddText('8')">8</a>
                         </div>
                         <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">6</a>
+                            <a class="btn light-blue lighten-2" onclick="AddText('9')">9</a>
                         </div>
                         <div class="col s3">
-                            <a href="" class="btn light-blue">×</a>
-                        </div>
-
-                        <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">1</a>
-                        </div>
-                        <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">2</a>
-                        </div>
-                        <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">3</a>
-                        </div>
-                        <div class="col s3">
-                            <a href="" class="btn light-blue">-</a>
+                            <a class="btn light-blue" onclick="AddText('÷')">÷</a>
                         </div>
 
                         <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">0</a>
+                            <a class="btn light-blue lighten-2" onclick="AddText('4')">4</a>
                         </div>
                         <div class="col s3">
-                            <a href="" class="btn light-blue lighten-2">.</a>
+                            <a class="btn light-blue lighten-2" onclick="AddText('5')">5</a>
                         </div>
                         <div class="col s3">
-                            <a href="" class="btn light-blue darken-3">=</a>
+                            <a class="btn light-blue lighten-2" onclick="AddText('6')">6</a>
                         </div>
                         <div class="col s3">
-                            <a href="" class="btn light-blue">+</a>
+                            <a class="btn light-blue" onclick="AddText('×')">×</a>
+                        </div>
+
+                        <div class="col s3">
+                            <a class="btn light-blue lighten-2" onclick="AddText('1')">1</a>
+                        </div>
+                        <div class="col s3">
+                            <a class="btn light-blue lighten-2" onclick="AddText('2')">2</a>
+                        </div>
+                        <div class="col s3">
+                            <a class="btn light-blue lighten-2" onclick="AddText('3')">3</a>
+                        </div>
+                        <div class="col s3">
+                            <a class="btn light-blue" onclick="AddText('-')">-</a>
+                        </div>
+
+                        <div class="col s3">
+                            <a class="btn light-blue lighten-2" onclick="AddText('0')">0</a>
+                        </div>
+                        <div class="col s3">
+                            <a class="btn light-blue lighten-2" onclick="AddText('.')">.</a>
+                        </div>
+                        <div class="col s3">
+                            <a class="btn light-blue darken-3">=</a>
+                        </div>
+                        <div class="col s3">
+                            <a class="btn light-blue" onclick="AddText('+')">+</a>
                         </div>
 
                     </div>
@@ -90,6 +90,10 @@
                 <div class="col s6 float">
                     <h5>About</h5>
                     <p>This program is created to accomplish ARC ITB assignment.</p>
+                </div>
+
+                <div id="test">
+                    
                 </div>
 
             </div>

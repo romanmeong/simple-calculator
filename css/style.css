@@ -1,0 +1,31 @@
+#calc {
+
+}
+
+#calcscreen {
+    font-size: 1.64rem;
+    border: 1px solid #9e9e9e;
+    border-radius: 2px;
+    margin-top: 0.46rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+}
+
+#calcscreen:focus {
+    border: 1px solid #0277bd;
+    box-shadow: none;
+}
+
+#calcbutton {
+    padding: 0 0.6rem;
+}
+
+#calcbutton div {
+    padding: 2px;
+}
+
+#calcbutton div a {
+    width: 100%;
+    font-weight: bold;
+}
